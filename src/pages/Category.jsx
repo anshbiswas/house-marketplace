@@ -5,7 +5,6 @@ import {collection, getDocs, query, where, orderBy, limit, startAfter} from 'fir
 import {db} from '../firebase.config'
 import {toast} from 'react-toastify'
 import Spinner from '../components/Spinner'
-import { FirebaseError } from 'firebase/app'
 import ListingItem from '../components/ListingItem'
 
 function Category() {
